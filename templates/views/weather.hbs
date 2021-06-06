@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+
+<body>
+    
+    <div class="box">
+        <a href="/" class="research">TRY ANOTHER SEARCH</a>
+        <div class="wave -one"></div>
+        <div class="wave -two"></div>
+        <div class="wave -three"></div>
+
+        <div id="weathercon">
+            <img src="{{imgIcon}}" alt="weather_img" srcset="">
+        </div>
+
+        <div class="info">
+            <h2 class="location">
+                {{location}}
+            </h2>
+            <p id="date"> THU | MAY 3 | 11:40 </p>
+            <h1 class="temp">{{Locationtemp}} degree celcius</h1>
+            <h3 class="tempmin_max">{{weatherDesc}}</h3>
+        </div>
+    </div>
+    
+    <script src="js/client-side.js"></script>
+</body>
+
+</html>
